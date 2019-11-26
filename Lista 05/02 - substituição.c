@@ -4,7 +4,7 @@
 main()
 {
     srand(time(NULL));
-    int vetor[10], i, v[10], f;
+int vetor[10], i;
 
     for (i = 0; i < 10; i++)
     {
