@@ -9,10 +9,12 @@ main()
     for (i = 0; i < 30; i++)
     {
         vetor[i] = rand() % 101;
-        if (vetor[i] % 2 == 1){
+        if (vetor[i] % 2 == 1)
+        {
             quantidade++;
         }
-        if(vetor[i] % 2 == 0){
+        if (vetor[i] % 2 == 0)
+        {
             vetor[i] = 0;
         }
         printf("V[%i] = %i\n", i, vetor[i]);

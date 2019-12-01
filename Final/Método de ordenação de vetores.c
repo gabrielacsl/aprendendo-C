@@ -10,7 +10,7 @@ main()
 
     for (i = 0; i < 10; i++)
     {
-        vetor[i] = rand() % 11 + 1;
+        vetor[i] = rand() % 10 + 1;
     }
     printf("Ordem atual dos itens no array:\n");
     for (i = 0; i < 10; i++)
