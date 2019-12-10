@@ -6,7 +6,7 @@ main()
     srand(time(NULL));
 
     int vetor[10];
-    int i, aux, contador;
+    int i, aux, f;
 
     for (i = 0; i < 10; i++)
     {
@@ -18,15 +18,15 @@ main()
         printf("%4d", vetor[i]);
     }
 
-    for (contador = 1; contador < 10; contador++)
+    for (i = 1; i < 10; i++) // cada volta nesse for se chama iteração
     {
-        for (i = 0; i < 10 - 1; i++)
+        for (f = 0; f < 10 - 1; f++)
         {
-            if (vetor[i] > vetor[i + 1])
+            if (vetor[f] > vetor[f + 1])
             {
-                aux = vetor[i];
-                vetor[i] = vetor[i + 1];
-                vetor[i + 1] = aux;
+                aux = vetor[f];
+                vetor[f] = vetor[f + 1];
+                vetor[f + 1] = aux;
             }
         }
     }
