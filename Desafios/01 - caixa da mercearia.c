@@ -4,7 +4,7 @@ main()
     int n, i = 0, p = 0, q = 0, v = 0, f = 0, d = 0, troco, valor = 0;
 
     scanf("%i", &n);
-    for (i = 0; i <= n; i++)
+    for (i = 0; i < n; i++)
     {
         valor = 0;
         scanf("%i", &p);
