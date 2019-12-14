@@ -18,7 +18,7 @@ main()
         if (valor > d)
         {
             printf("DINHEIRO INSUFICIENTE\n");
-        }
+        } 
         else
         {
             printf("%i\n", troco);
